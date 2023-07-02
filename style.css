@@ -1,0 +1,66 @@
+body /* Текст */
+{
+    background-color: white;
+    color: black;
+    font-family: Montserrat Alternates;
+}
+
+.ObjFrame1 /* Объект 1 */
+{
+    padding: 10px;
+	background-color: #F7C899;
+    width: 500px;
+    height: 320px;
+    color:#6A350E;
+    border-radius: 15px;
+}
+#ObjFrame2 /* Объект 2 */
+{
+    padding: 10px;
+	background-color: #F7C899;
+    width: 500px;
+    height: 320px;
+    color:#6A350E;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+#Container /* Контейнер */
+{
+    display:flex;
+    justify-content: center;
+}
+
+td /* Каманды в объекте */
+{
+    color:#6A350E;
+    font-weight: 600;
+} 
+table /* Дальность кнопок */
+{
+    border-spacing: 11px;
+}
+
+/* Кнопки Ввода */
+input[type="text"]
+{
+    height: 25px;
+    border: 2px solid #6a340e98;
+}
+input[type="text"]:hover
+{
+    border: 2px solid #643310; 
+}
+input[type="text"]:focus /* Фикс сдвига */
+{
+    outline: none;
+}
+input[type="submit"]
+{
+    background-color: #7a5dc5;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-family: Montserrat Alternates;
+}
